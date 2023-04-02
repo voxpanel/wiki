@@ -4,7 +4,8 @@ Primeiro verifique se o IP da máquina do shoutcast está bloqueado, na máquina
 Só rodar esse comando na máquina do painel, substitua 177.6.108.158 pelo ip da maquina do shoutcast:
 ```iptables -A INPUT -i eth0 -s 177.6.108.158 -p tcp --destination-port 3306 -j ACCEPT```
 
-Agora siga o seguinte tutorial na máquina do painel: [https://receitasdecodigo.com.br/banco-de-dados/liberar-acesso-remoto-para-servidores-mysql]
+Agora siga o seguinte tutorial na máquina do painel: https://receitasdecodigo.com.br/banco-de-dados/liberar-acesso-remoto-para-servidores-mysql
+
 Agora na máquina do shoutcast, rode as linhas: 
 ```
 chkconfig pure-ftpd on
