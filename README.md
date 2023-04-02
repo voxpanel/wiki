@@ -30,3 +30,8 @@ cdn/inc/conecta-remoto.php
 /home/painel/public_html/app_android/* 
 /home/streaming/* 
 ```
+
+
+#### Abaixo estão alguns zips que podem completar nos estudos dos painéis de audio e vídeo:
+
+[video-audio-recursos.zip](https://github.com/voxpanel/wiki/files/11133403/video-audio-recursos.zip)
