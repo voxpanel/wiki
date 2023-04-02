@@ -2,7 +2,7 @@
 
 Acesse o servidor shoutcast e vá ao diretório /home/streaming/web e envie o arquivo e crie/altere o arquivo download-soundcloud.php
 
-´´´
+```
 <?php
 header('Access-Control-Allow-Origin: *');
 ini_set("memory_limit", "1024M");
@@ -66,4 +66,4 @@ echo "<span style=\"color: #FF0000;font-family: Geneva, Arial, Helvetica, sans-s
 
 echo '</span><script>window.scrollBy(0,100);</script>';
 ?>
-´´´
+```
